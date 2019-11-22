@@ -36,12 +36,12 @@ google_analytics:
 
 # Social settings
 # Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
-twitter_url:
+twitter_url: https://twitter.com/maxqwertyedu
 facebook_url:
 googleplus_url:
-instagram_url:
-linkedin_url:
-github_url:
+instagram_url: https://www.instagram.com/aka.maxqwerty
+linkedin_url: https://www.linkedin.com/in/maxqwerty
+github_url: https://github.com/maxqwerty
 pinterest_url:
 slack_url:
 dribbble_url:

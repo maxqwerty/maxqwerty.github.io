@@ -6,16 +6,10 @@
 	photo-alt
 	auto-header
 	content
-	section_id
 {%- endcomment -%}
 
 {%- assign _title = include.title | default: 'Untitled' -%}
-
-{%- if include.section_id -%}
-	{%- assign _slug = include.section_id -%}
-{%- else -%}
-	{%- assign _slug = include.title | strip_html | slugify | default: 'untitled' -%}
-{%- endif -%}
+{%- assign _slug = include.title | strip_html | slugify | default: 'untitled' -%}
 
 {%- if include.photo and include.photo-alt -%}
 	{%- capture _photo -%}
