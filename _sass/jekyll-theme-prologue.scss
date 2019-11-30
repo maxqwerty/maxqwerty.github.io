@@ -4,6 +4,12 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
+#my-skills {
+	li, h4 {
+		text-align: left;
+	}
+}
+
 section#intro {
 	canvas {
 	    position: absolute;
