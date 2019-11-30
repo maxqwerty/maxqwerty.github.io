@@ -1,7 +1,7 @@
 ---
 title: My skills
-icon: fa-th
-order: 3
+icon: fa-graduation-cap
+order: 4
 ---
 ### C++
 Most used in my professional needs. Sometime complicated but great tool in the right hands
