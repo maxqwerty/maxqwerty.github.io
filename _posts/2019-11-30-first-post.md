@@ -2,6 +2,8 @@
 title: How this site was made
 author: Maxim Rybas
 layout: post
+icon: fa-file-code
+icon-style: regular
 ---
 
 Project [GitHub Pages](https://pages.github.com/){:target="_blank"} is based on [Jekyll](https://jekyllrb.com/){:target="_blank"} framework. It was written with Ruby and provides templates ([themes](https://jamstackthemes.dev/ssg/jekyll/){:target="_blank"}), so I just looked around and find this one: [Prologue](https://chrisbobbe.github.io/jekyll-theme-prologue/){:target="_blank"} by [Chris Bobbe](https://chrisbobbe.github.io/){:target="_blank"}.
