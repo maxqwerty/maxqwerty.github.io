@@ -36,7 +36,7 @@ order: 3
 <i class="far fa-circle"></i>
 1. Andreas C. Muller, Sarah Guido: *Introduction to Machine learning with Python*
 <i class="far fa-circle"></i>
-1. Peter Bruce, Andrew Bruce: *Practical Statistica for Data Scientists*
+1. Peter Bruce, Andrew Bruce: *Practical Statistics for Data Scientists*
 <i class="far fa-circle"></i>
 1. Adrian Kaehler, Gary Bradski: *Learning OpenCV 3*
 <i class="far fa-circle"></i>
