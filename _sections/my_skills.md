@@ -26,7 +26,7 @@ I like this language more than Python and any other object-orianted laguage for 
   * Rakefile
 
 * #### Active Record
-The best ORM I ever seen. I use it even in the web-less scripts.
+The best ORM I have ever seen. I use it even in the web-less scripts.
 
 * #### Sinatra
 For simple web-apps
