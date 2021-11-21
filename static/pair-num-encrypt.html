@@ -28,7 +28,7 @@
 </body>
 
 <script>
-	$("#number_input").on("input propertychange", function() {
+	$("#number_input").change(function() {
 		let pair = getPair()
   		displayValue(pair[0], pair[1])
 	});
