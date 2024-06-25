@@ -1,6 +1,8 @@
 ---
 layout: note
 author: Max Rybas
+type: book
+source-name: Architecture
 title: The second post
 ---
 
