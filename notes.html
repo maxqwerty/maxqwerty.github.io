@@ -6,6 +6,7 @@ title: Notes
 
 <ul>
   There are {{ site.notes.size }} notes
+  There are {{ site.notes.subnotes.size }} subnotes
   {% for note in site.notes %}
     <li>
       <h2><a href="{{ note.url }}">{{ note.title }}</a></h2>
