@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Blog
+title: Notes
 ---
 <h1>Latest Notes</h1>
 
 <ul>
-  There are {{ site.notes.length }} notes
+  There are {{ site.notes.size }} notes
   {% for note in site.notes %}
     <li>
       <h2><a href="{{ note.url }}">{{ note.title }}</a></h2>

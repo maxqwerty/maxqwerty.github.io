@@ -1,6 +1,6 @@
-- name: Home
+- name: MaxQwerty
   link: /
+- name: Заметки
+  link: /notes.html
 - name: About
   link: /about.html
-- name: Blog
-  link: /blog.html
