@@ -1,5 +1,3 @@
 collections:
   notes:
     output: true
-    subnotes:
-      output: true
