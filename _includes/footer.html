@@ -1,49 +1,6 @@
-<!-- The Footer -->
-
-<footer
-  aria-label="Site Info"
-  class="
-    d-flex flex-column justify-content-center text-muted
-    flex-lg-row justify-content-lg-between align-items-lg-center pb-lg-3
-  "
->
-  <p>
-    {{- '©' }}
-    <time>{{ 'now' | date: '%Y' }}</time>
-
-    {% if site.social.links %}
-      <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
-    {% else %}
-      <em class="fst-normal">{{ site.social.name }}</em>.
-    {% endif %}
-
-    {% if site.data.locales[include.lang].copyright.brief %}
-      <span
-        data-bs-toggle="tooltip"
-        data-bs-placement="top"
-        title="{{ site.data.locales[include.lang].copyright.verbose }}"
-      >
-        {{- site.data.locales[include.lang].copyright.brief -}}
-      </span>
-    {% endif %}
-  </p>
-
-  <p>
-    {%- capture _platform -%}
-      <a href="https://jekyllrb.com" target="_blank" rel="noopener">Jekyll</a>
-    {%- endcapture -%}
-
-    {%- capture _theme -%}
-      <a
-        data-bs-toggle="tooltip"
-        data-bs-placement="top"
-        title="v{{ theme.version }}"
-        href="https://github.com/cotes2020/jekyll-theme-chirpy"
-        target="_blank"
-        rel="noopener"
-      >Chirpy</a>
-    {%- endcapture -%}
-
-    {{ site.data.locales[include.lang].meta | replace: ':PLATFORM', _platform | replace: ':THEME', _theme }}
-  </p>
-</footer>
+<footer class="footer">
+    <div class="text-center">
+        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+        <small class="copyright">{{ site.data.data.footer }}</small>
+    </div><!--//container-->
+</footer><!--//footer-->
